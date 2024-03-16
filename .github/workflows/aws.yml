@@ -16,6 +16,9 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@main
 
+      - name: cd
+        run: cd tasty-site
+
       - name: install
         run: npm install
         
